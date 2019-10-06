@@ -1,0 +1,36 @@
+header {
+    height: 80px;
+    width: 100%;
+        
+    .logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu {
+        ul {
+            display: flex;
+            li {
+                list-style: none;
+                margin-left:20px;
+                a {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    text-decoration: none;
+                    color: #000;
+                    &.color-verde {
+                        color: #00ff00;
+                    }
+                    &.link {
+                        color: #00f;
+                    }
+                    &:hover {
+                        color: #10c9c3;
+                    }
+                }
+            }
+
+        }
+    }
+    
+}
